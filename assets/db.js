@@ -15,9 +15,9 @@
                 "bio": "Barnibus Appleton is a Midwestern Composers who uses traditional music symbols in new and inovative ways.  He wants performers to be constantly thrown off by his notation and even changes the meanings of symbols from work to work. Appleton studied with Gerald Sanders after earning a performance deploma in viola. Appleton is currently the chair for the New Confusion Symposium and has attended all of the symposiums since their inseption in 2013."
             },
             {
-                "name": "Hans Hansanderson",
-                "headshot": "./assets/headshots/hans_hansanderson.jpg",
-                "bio": "Hans Hansanderson is a Sweedish composer based in Berlin who writes music based upon score alone.  Hansanderson's music has been described as dumbfounding, a jumbled mess, and a way to think about music. He has been commissioned by the Confused Symposium Ensemble and has been praised for his use of form over function by various music publications.  Hans Hansanderson has also atteneded and presented at the 2015 New Confucion Symposium in Indianapolis and the 2017 New Confusion Symposium in Fayetteville, Arkansas."
+                "name": "Hanna Hansandersdóttir",
+                "headshot": "./assets/headshots/hanna_hansanderdottir.jpg",
+                "bio": "Hans Hansanderson is a Icelandic composer based in Berlin who writes music based upon score alone.  Hansandersdóttir's music has been described as dumbfounding, a jumbled mess, and a way to think about music. She has been commissioned by the Confused Symposium Ensemble and has been praised for her use of form over function by various music publications.  She has also atteneded and presented at the 2015 New Confucion Symposium in Indianapolis and the 2017 New Confusion Symposium in Fayetteville, Arkansas."
                             },
 
             {
