@@ -41,10 +41,10 @@
               </span>
             </div>
           </v-flex>
-          <v-flex xs12>
-            <v-container grid-list-xl>
-              <v-layout row  align-top justify-space-between>
-                <v-flex xs12 md4 v-for="i in intro">
+          <v-flex xs12 >
+            <v-container grid-list-xl align-content-center fluid >
+              <v-layout row  align-top justify-center wrap fill-height justify-space-around justify-center>
+                <v-flex s12 md4 v-for="i in intro">
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">       
 
@@ -70,7 +70,7 @@
           <v-layout column align-center justify-center>
             <div class="headline black--text mb-3 text-xs-center">The artists in the movement</div>
               <v-flex v-for="composer in composers" xsl-12> 
-                <v-card width= "800px" my-3 hover="true"> 
+                <v-card max-width= "800px" my-3 hover="true"> 
                     <v-layout my-2>
                     <v-flex xs5 align-middle>
                             <v-img v-bind:src="composer.headshot"
