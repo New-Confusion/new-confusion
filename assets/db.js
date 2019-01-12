@@ -44,7 +44,12 @@
                 "name": "Anton Miller",
                 "headshot": "./assets/headshots/anton_miller.jpg",
                 "bio": "Anton Miller creates purly graphic scores with little to no instruction. After studying with various composers around Europe, Anton Miller returned to his home in Colorado Springs to re-invent his compositional style.  Using his recent studies as inspiration, Miller decided in order for his music to express itself fully, it must draw upon his limited visual art skills.  His scores have been lauded as an impitus for creative performance and as a wonderful source of befuddlement. Relitivly new to the New Confusion Movement, Miller is a rising star who attended the 2017 New Confusion Symposium in Fayetteville, Arkansas and plans to continue going to New Confusion events."  ,
+            },
+            {"name": "Lukas \"Lopey\" Winkle",
+             "headshot" : "./assets/headshots/lukas_winkle.jpg", 
+             "bio" : "Lukas “Lopey” Winkle (b. 1996) was born in Germany but grew up primarily in the Netherlands before heading to France to study music composition in 2014. During his time in France, Lukas earned the nickname “Lopey” when he became disenchanted with the idea of traditional musical notation and clarity of notation and went through a period of pessimism and repeated failure. Upon accepting the limitations of traditional notation Lukas moved forward in his compositional growth and began creating his unique and unusual “Clip Art” Scores in 2018. His scores have been described as indistinguishable from a child’s random selection of images, both confusing and aimless. To this day Lukas has stated explicitly that he has never heard a satisfying performance of one of his works." 
             }
+            
             
             
 
