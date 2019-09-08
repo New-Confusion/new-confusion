@@ -1,5 +1,6 @@
    new Vue({
     el: '#app',
+    vuetify: new Vuetify(),
     data () {
       return {
           //composer information-- use this when adding new composers to the movement
