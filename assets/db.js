@@ -18,7 +18,7 @@
             {
                 "name": "Hanna Hansandersdóttir",
                 "headshot": "./assets/headshots/hanna_hansanderdottir.jpg",
-                "bio": "Hans Hansanderson is an Icelandic composer based in Berlin who writes music based upon score alone. Hansandersdóttir's music has been described as dumbfounding, a jumbled mess, and a way to think about music. She has been commissioned by the Confused Symposium Ensemble and has been praised for her use of form over function by various music publications. She has also attended and presented at the 2015 New Confusion Symposium in Indianapolis and the 2017 New Confusion Symposium in Fayetteville, Arkansas."
+                "bio": "Hanna Hansandersdóttir is an Icelandic composer based in Berlin who writes music based upon score alone. Hansandersdóttir's music has been described as dumbfounding, a jumbled mess, and a way to think about music. She has been commissioned by the Confused Symposium Ensemble and has been praised for her use of form over function by various music publications. She has also attended and presented at the 2015 New Confusion Symposium in Indianapolis and the 2017 New Confusion Symposium in Fayetteville, Arkansas."
                             },
 
             {
