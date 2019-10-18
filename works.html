@@ -1,0 +1,85 @@
+<html style="background: whitesmoke">
+    <style>
+        .content{
+            padding: 0 10 25 10;
+            text-align: left;
+        }
+        
+        .v-card{
+            margin-bottom: 10px;
+            text-align: right;
+                    
+        }
+        
+        workTitle{
+            font-size: 24pt;
+            font-style: italic;
+        }
+    
+    </style>
+<head>
+  <title>Voucher</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <div id="app">
+
+     <v-flex style="padding: 0 0 0 10px; width: 800px;">
+     <v-card class="mx-auto">
+     <v-card-title>
+         <workTitle>Study in Superposition</workTitle> <br> Anton Miller
+         
+         </v-card-title>
+         <div class="content">
+         <image src="assets/scores/antonMillerSuperposition.png" style="height:500px"/>
+             <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=568758908/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://editionauflage.bandcamp.com/track/study-in-superposition">Study in Superposition by Anton Miller</a></iframe>
+             </div>
+     </v-card>
+     <v-card>
+     <v-card-title>
+         <workTitle>Winter Risers</workTitle> <br>Kate Winters
+         </v-card-title>
+         <div class="content">
+         <iframe style="border: 0; width: 700px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=930703101/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://editionauflage.bandcamp.com/album/winter-risers">Winter Risers by Kate Winters</a></iframe>
+         </div>  
+         
+     </v-card>
+     <v-card>
+     <v-card-title>
+          <workTItle>Saturation Suite </workTItle><br> Brian Bates
+         </v-card-title>
+         <div class=content>
+         <embed src="assets/scores/Saturation Suite/Brian-Bates-Saturation-Suite-instructions.pdf" type="application/pdf" width="100%" height="600px" style="margin-bottom: 25px"/>
+        <div style="text-align: center">
+         <img src="assets/scores/Saturation Suite/example1.jpg" style="height:200px">
+             <img src="assets/scores/Saturation Suite/example2.jpg" style="height:200px">
+            </div>
+         </div>
+     </v-card> <!---
+     <v-card>
+          <v-card-title>
+          <workTitle>Etude No. 8 </workTitle><br> Barnibus Appleton
+         </v-card-title>     
+     </v-card>
+!--->
+    <v-card>
+          <v-card-title>
+           <workTitle>Self-referential Material</workTitle><br> Jannice Mcannon
+         </v-card-title>   
+        <div class="content">
+        <img src="assets/scores/McCannon/selfReferencial.jpg" style="width: 100%">
+        
+        </div>
+     </v-card>
+         </v-flex>
+    </div>
+    </body>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+ <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+ <script src="assets/db.js"> </script>
+</html>

@@ -76,11 +76,42 @@
                         {
                 "title":"Improving Our World" ,
                 "icon": "public",
-                "info": "New Confusion will not only change the course of western music, but it will also positively influence our world. New confusion causes those who perform it to create unique synapses causing them to developed a unique outlook on the world. This way of thinking will encourage the next generation of thinkers to solve the worlds many impending problems..",
+                "info": "New Confusion will not only change the course of western music, but it will also positively influence our world. New confusion causes those who perform it to create unique synapses causing them to developed a unique outlook on the world. This way of thinking will encourage the next generation of thinkers to solve the worlds many impending problems.",
              
             }
 
-        ]
+        ],
+          "works" : [
+            { 
+            "title" : "Study 12",
+            "composer": "Kate Winters",
+            "soundFile" : "none",
+            "scoreFile" : "none",
+            "programNote": "none"
+            },
+            {
+            "title" : "Study in Superposition",
+            "composer": "Anton Miller",
+            "soundFile" : "none",
+            "scoreFile" : "none",
+            "programNote": "none"
+            },
+            {
+            "title" : "",
+            "composer": "Janice McCannon",
+            "soundFile" : "none",
+            "scoreFile" : "none",
+            "programNote": "none"
+            },
+            {
+            "title" : "",
+            "composer": "Brian Bates",
+            "soundFile" : "none",
+            "scoreFile" : "none",
+            "programNote": "none"
+            }
+          
+          ]
       }
          
     }
