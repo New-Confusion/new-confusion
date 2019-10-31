@@ -1,0 +1,8 @@
+@font-face{
+        font-family: hellvetica;
+        src: url("/assets/Fonts/Hellvetica.ttf");
+    }
+
+v-content {
+    font-family: hellvetica;
+}
