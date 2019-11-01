@@ -21,18 +21,18 @@ function getUrlParam(parameter, defaultvalue){
 var frameChanger = getUrlParam('frame', "home");
 
 
-changeFrame("confusionFrame", "./" + frameChanger +".html");
 
-function fonthell(){
+
+function fonthell(name){
    
-        setInterval(setFontRandom,250);
+        setInterval(setFontRandom(name),500);
         
 }
-function setFontRandom(){
-    if(Math.random()>0.95){
-    document.getElementById("content").parentElement.style.fontFamily= "hellvetica";
+function setFontRandom(name){
+    if(Math.random()>0.99){
+    document.getElementById(name).style= "font-family: hellvetica;";
     }
-    else{
-      document.getElementById("content").parentElement.style.fontFamily= "roboto";  
+    else if (Math.random()>0.55){
+     document.getElementById(name).style= "font-family: Roboto;"
     }
 }

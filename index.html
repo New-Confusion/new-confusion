@@ -9,15 +9,15 @@
 </head>
 <body>
 
- <div id="app">
-   <v-app light>
-    <v-content id="content">
+ <div id="app" style="">
+      
+   <v-app light id="a">
+    <v-content>
         <v-flex>
         <section style="position:fixed; z-index: 5; width:100%; height: 50 px">
-              <v-card>
+              <vCard>
                   <v-toolbar>
                   <v-tabs>
-              <v-tab-slider> </v-tab-slider>
                   <v-tab onclick="changeFrame('confusionFrame', './home.html')">
                   Home
                   </v-tab>
@@ -37,7 +37,7 @@
              
                       </v-tabs>
                       </v-toolbar>
-            </v-card>
+            </vCard>
             </section>
 
 
@@ -56,7 +56,8 @@
  <script src="assets/db.js"> </script>
     <script src="./theThing.js"> </script>
         <script>
-    fonthell();
+    changeFrame("confusionFrame", "./" + frameChanger +".html");
+            fonthell("a");
     </script>
 </body>
 </html>
