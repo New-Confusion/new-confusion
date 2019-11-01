@@ -22,3 +22,17 @@ var frameChanger = getUrlParam('frame', "home");
 
 
 changeFrame("confusionFrame", "./" + frameChanger +".html");
+
+function fonthell(){
+   
+        setInterval(setFontRandom,250);
+        
+}
+function setFontRandom(){
+    if(Math.random()>0.95){
+    document.getElementById("content").parentElement.style.fontFamily= "hellvetica";
+    }
+    else{
+      document.getElementById("content").parentElement.style.fontFamily= "roboto";  
+    }
+}
