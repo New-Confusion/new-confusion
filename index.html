@@ -15,7 +15,6 @@
     <v-content>
         <v-flex>
         <section style="position:fixed; z-index: 5; width:100%; height: 50 px">
-              <vCard>
                   <v-toolbar>
                   <v-tabs>
                   <v-tab onclick="changeFrame('confusionFrame', './home.html')">
@@ -27,17 +26,10 @@
                 <v-tab onclick="changeFrame('confusionFrame', './works.html')">
                 Notable Works      
                 </v-tab>
-                      <!--
-                <v-tab onclick="changeFrame('confusionFrame', 'https://beyondbars.newconfusion.org')">
-                Beyond Bars      
-                </v-tab>
-                <!--- <v-tab onclick="changeFrame('confusionFrame', './WebPagesInterest.html')">
-                  Web Pages of Interest
-                  </v-tab> --->
              
                       </v-tabs>
                       </v-toolbar>
-            </vCard>
+  
             </section>
 
 
@@ -50,7 +42,9 @@
       
     </v-content>
   </v-app>
- </div>
+     
+     </div>
+
  <script src="https://unpkg.com/vue/dist/vue.js"></script>
  <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
  <script src="assets/db.js"> </script>
@@ -59,5 +53,6 @@
     changeFrame("confusionFrame", "./" + frameChanger +".html");
             fonthell("a");
     </script>
+      
 </body>
 </html>

@@ -12,7 +12,7 @@
 
 </head>
 <body>
- <div id="app">
+    <div id="app">
    <v-app light id="contentHome">
     <v-content>
 
@@ -74,7 +74,7 @@
           <v-layout column align-center justify-center>
             <div class="headline black--text mb-3 text-xs-center">The artists in the movement</div>
               <v-flex v-for="composer in composers" xsl-12> 
-                <v-card max-width= "900px" my-3 hover="true"> 
+                <v-card max-width= "900px" my-3> 
                     <v-layout my-2>
                     <v-flex xs5 align-middle>
                             <v-img v-bind:src="composer.headshot"
@@ -110,11 +110,13 @@
         </section>
        </v-content>
      </v-app>
-    </div>
+                </div>
+   
      <script src="https://unpkg.com/vue/dist/vue.js"></script>
  <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
  <script src="assets/db.js"> </script>
         <script src="theThing.js"></script> 
-    <script>fonthell("contentHome")</script>
+    <script>var fontchange= fonthell("contentHome");</script>
+
     </body>
 </html>

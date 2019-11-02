@@ -24,15 +24,20 @@ var frameChanger = getUrlParam('frame', "home");
 
 
 function fonthell(name){
-   
-        setInterval(setFontRandom(name),500);
-        
+       setInterval(setFontRandom(name),500);
 }
+
+        
 function setFontRandom(name){
-    if(Math.random()>0.99){
-    document.getElementById(name).style= "font-family: hellvetica;";
+
+    if(Math.random()>0.85){    
+    
+     if (Math.random()>0.95){
+     document.getElementById(name).style= "font-family: Papyrus,fantasy;"
+     }
+        else{
+            document.getElementById(name).style= "font-family: hellvetica;";
+        }
     }
-    else if (Math.random()>0.55){
-     document.getElementById(name).style= "font-family: Roboto;"
-    }
+    
 }
