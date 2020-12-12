@@ -49,6 +49,10 @@
             {"name": "Lukas \"Lopey\" Winkle",
              "headshot" : "./assets/headshots/lukas_winkle.jpg", 
              "bio" : "Lukas “Lopey” Winkle (b. 1996) was born in Germany but grew up primarily in the Netherlands before heading to France to study music composition in 2014. During his time in France, Lukas earned the nickname “Lopey” when he became disenchanted with the idea of traditional musical notation and clarity of notation and went through a period of pessimism and repeated failure. Upon accepting the limitations of traditional notation Lukas moved forward in his compositional growth and began creating his unique and unusual “Clip Art” Scores in 2018. His scores have been described as indistinguishable from a child’s random selection of images, both confusing and aimless. To this day Lukas has stated explicitly that he has never heard a satisfying performance of one of his works." 
+            },
+             {"name": "Theo Stefenson",
+             "headshot" : "./assets/headshots/theo_stefonson.jpg", 
+             "bio" : "Theo Stefenson is a magician and composer for both music and unworldly objects.   Theo writes music using unequal divisions of the augmented octave (U.D.aO) to explore harmonic terrain that is unavailable to those constrained by the tyranny of two. He closely follows the writings of Dane Rudhyar and subscribes his beliefs about world cultures and theosophy.  In addition to these beliefs, Theo often instructs performers of his music to un-tune their instruments either by freezing them or hitting them against a wall until the desired tuning is achieved.  Stefenson is new to the New Confusion movement and embraces the inspiration that confusion provides all artists and illusionists." 
             }
             
             
